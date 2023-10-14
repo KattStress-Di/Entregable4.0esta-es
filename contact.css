@@ -1,0 +1,91 @@
+
+.formulario{
+    background: url(image_processing20191001-28305-gdm0ip.gif);
+   background-size: cover;
+    background-size: 150 100%;
+    
+    
+
+
+}
+.contenedo{
+    margin: 20px auto;
+    width: 300px;
+    padding: 40px;
+    background-color: rgb(2, 1, 1, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, .5);
+
+}
+
+
+
+.contenedo h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+
+   
+  
+}
+
+.contenedo span{
+    color: rgba(252, 252, 252, 0.473);
+    text-align: center;
+
+}
+
+.contenedo .elemento label {
+    color: rgb(255, 255, 255);
+    animation: fade-in 5s 1;
+    
+}
+
+.contenedo .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+    animation: fade-in 5s 1;
+    font-weight: 900;
+}
+
+.contenedo .elemento input[type="submit"]{
+    background-color: rgb(221, 194, 72);
+    border: 1px solid black;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 50px;
+    animation: fade-in 5s 1;
+  
+}
+
+.contenedo .elemento input[type="submit"]:hover{
+    background-color: white;
+    color: orange;
+    cursor: pointer;
+    
+}
+
+.elemento span{
+    color: rgb(230, 68, 68);
+}
+
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pagina.css">
+    <link rel="stylesheet" href="contact.css">
+    
+</head>
+<body>
+    <div class="contenedor">
+        <header class="cabeza">
+            <div class="logo">
+                <P>FAST<span>DEV</span></P>
+            </div>
+            <nav class="menu">
+                <ul class="navegacion">
+                    <li><a href="#seccion1">Inicio</a></li>
+                    <li><a href="#menu">Catalogo</a></li>
+                    <li><a href="#contactos">Contactanos</a></li>
+                    <li><a href="#Nosotros">Nosotros</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+
+            </nav>
+        </header>
+        <div class="presentacion" id="seccion1" >
+            <div class="informacion" >
+                <h1 > Ordena tu comida favorita</h1>
+                <div>
+                    <p>Hola, nuestra deliciosa comida esta esperando por ti,</p>
+                    <p>siempre estamos cerca para ti con comida fresca</p>
+                </div>
+                <div class="informacion--boton">
+                
+                   <a href="#menu">Explorar Comida</a>
+                </div>
+            </div>
+            <div class="presentacion--imagen">
+                <img src="design.png" >
+            </div>
+        </div>
+        <div class="comida" id="menu">
+           <h2>Productos:</h2><br>
+
+        <div class="platos">
+
+                    <div class="plato">
+                        <img src="alit.png" alt="">
+                         <h1>Broaster</h1>
+                         <p>Pollo frito con una frezcura de crocancia mas sus deliciosas papas fritas</p>
+                         <div class="plato--info">
+                            <p></p>
+                            <button type="button" >$18</button> 
+                           
+                         </div>     
+                    </div>
+               
+                    <div class="plato">
+                        <img src="arr.png" alt="">
+                         <h1>Arroz de marizco</h1>
+                         <p>Arroz condimentado con un toque marino y 5 marizcos ni mas ni menos 🤑</p>
+                         <div class="plato--info">
+                            <p></p>
+                           <button type="button">$24</button>
+                         </div>     
+                    </div>
+                    <div class="plato">
+                        <img src="bur.png" alt="">
+                         <h1>Hamburguesa</h1>
+                         <p>Hambuguesa Parrillera con trilpe queso, doble carne + tomate e lechuga a su preferencia</p>
+                         <div class="plato--info">
+                            <p></p>
+                           <button type="button">$6.40</button>
+                         </div>     
+                    </div>
+                    <div class="plato">
+                        <img src="Burritos.png" alt="">
+                         <h1>Burritos</h1>
+                         <p>Dos burritos con carne picante + vaso de juego + Nachos</p>
+                         <div class="plato--info">
+                            <p></p>
+                           <button type="button">$19.90</button>
+                         </div>     
+                    </div>
+                    <div class="plato">
+                        <img src="cha.png" alt="">
+                         <h1>Promo generosa</h1>
+                         <p>1 pollo a la brasa + papas fritas + ensalada fresca + gaseosa + deliciosas salsas</p>
+                         <div class="plato--info">
+                            <p></p>
+                           <button type="button">$83</button>
+                         </div>     
+                    </div>
+                    <div class="plato">
+                        <img src="chay.png" alt="">
+                         <h1>Chaufa</h1>
+                         <p>Chaufa simplon + saqlsa a su preferencia </p>
+                         <div class="plato--info">
+                            <p></p>
+                           <button type="button">$14.10</button>
+                         </div>     
+                    </div>
+                    <div class="plato">
+                        <img src="emp.png" alt="">
+                         <h1>Empanada</h1>
+                         <p>Empanada de carne + queso + aji</p>
+                         <div class="plato--info">
+                            <p></p>
+                           <button type="button">$5.00</button>
+                         </div>     
+                    </div>
+                    <div class="plato">
+                        <img src="helados.png" alt="">
+                         <h1>Pastel de helado</h1>
+                         <p>Inicia esta temporada de neveano con algo refrezcante - promo generosa</p>
+                         <div class="plato--info">
+                            <p></p>
+                           <button type="button">$50</button>
+                         </div>     
+                    </div>
+            
+            </div>
+            
+        </div>
+
+
+        <div class="formulario" id="contactos">
+           
+            <form action="https://formspree.io/f/mdorydln" method="post" class="contenedo" > 
+                <h2>Contactanos </h2>
+                <span>Escribenos y en breve nos pondremos en contacto contigo</span><br><br>
+               
+                    <div class="elemento">
+                       <label for="nombres">Nombres:</label> <span>*</span>
+                       <br><input id="nombres" type="text" placeholder="Escribe tu nombre" required="true"></P>
+           
+                       <label for="apellidos">Apellidos:</label> <span> *</span><br>
+                       <input id="apellidos" type="text" placeholder="Escribe tus apellidos" required="true"></p>
+           
+                       <label for="email">Email:</label> <span> *</span><br>
+                       <input id="email"  type="email" placeholder="Escribe tu email"><br>
+           
+                       <label for="edad">Edad:</label><br>
+                       <input id="edad" type="number" placeholder="Escribe tu edad"><br>
+           
+                       <label for="Comentario">Comentario:</label><br><br>
+                       <textarea name="Comentario" id="Comentario" placeholder="Escribe un comentario" cols="60" rows="6"></textarea>
+                       <br>
+           
+                       <input type="submit" value="enviar">
+                       <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar"><br>
+             </div>
+               
+           </form>
+
+        </div>
+
+     
+
+        <footer class="nosotros" id="Nosotros">
+            <div class="gif">
+                <img src="sisoi.gif" alt="">
+            </div>
+    
+    
+                <div class="link">
+                    <h3> Encuentranos aqui</h3>
+                    <ul>
+                        <li><a href="nuevo.html" target="_blank">La casa de Rebe - Puente Piedra</a></li>
+                        <li><a href="nuevo.html"target="_blank">La casa de Alonso -Ventanilla</a></li>
+                        <li><a href="nuevo.html"target="_blank">La casa de James -Callao</a></li>
+                        <li><a href="nuevo.html"target="_blank">La casa de Caty-Comas</a></li>
+                    </ul>
+                </div>
+      <div class="siiuuu">
+        <img src="giphy.gif" alt="">
+      </div>
+    
+                
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
